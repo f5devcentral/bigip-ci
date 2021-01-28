@@ -1,7 +1,7 @@
- terraform {
-   required_providers {
+terraform {
+  required_providers {
     bigip = {
-      source = "F5Networks/bigip"
+      source  = "F5Networks/bigip"
       version = "1.4.0"
     }
   }
@@ -24,5 +24,5 @@ provider "bigip" {
 
 # deploy application using as3
 resource "bigip_as3" "nginx" {
-  as3_json    = file(var.declaration)
+  as3_json = file(var.declaration)
 }
