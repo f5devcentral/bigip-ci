@@ -22,6 +22,6 @@ provider "bigip" {
 }
 
 # deploy application using as3
-resource "bigip_as3" "protected_app" {
+resource "bigip_as3" "application_protected" {
   as3_json = file(var.declaration)
 }
