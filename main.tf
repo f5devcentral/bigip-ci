@@ -22,6 +22,6 @@ provider "bigip" {
 }
 
 # deploy application using as3
-resource "bigip_as3" "change_app" {
+resource "bigip_as3" "with_waf" {
   as3_json = file(var.declaration)
 }
