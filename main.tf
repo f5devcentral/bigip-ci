@@ -23,5 +23,7 @@ provider "bigip" {
 
 # deploy application using as3
 resource "bigip_as3" "app1" {
-  as3_json = file(var.removeapp)
+  as3_json = file(var.declaration)
+  //as3_json = file(var.removeapp)
+
 }
