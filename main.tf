@@ -8,7 +8,7 @@ terraform {
   backend "remote" {
     organization = "SCStest"
     workspaces {
-      name = "big-ci"
+      name = "bigip-ci"
     }
   }
 }
