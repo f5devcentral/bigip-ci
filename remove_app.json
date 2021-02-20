@@ -2,7 +2,7 @@
     "class": "AS3",
     "schemaVersion": "3.24.0",
     "id": "My_Protected_App",
-    "My_Protected_App": {
+    "My_empty": {
       "class": "Tenant"
     }
   }
