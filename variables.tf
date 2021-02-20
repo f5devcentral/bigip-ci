@@ -3,4 +3,5 @@ variable "port" {}
 variable "username" {}
 variable "password" {}
 variable "declaration" {}
+variable "deployapp" {}
 variable "removeapp" {}
