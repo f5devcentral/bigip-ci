@@ -18,9 +18,6 @@
               "10.0.0.200"
             ],
             "pool": "web_pool",
-            "policyWAF": {
-              "use": "My_ASM_Policy"
-            },
             "persistenceMethods": [],
             "profileMultiplex": {
               "bigip": "/Common/oneconnect"
