@@ -23,5 +23,5 @@ provider "bigip" {
 
 # deploy application using as3
 resource "bigip_as3" "DeployApp" {
-  as3_json = file(var.deployapp)
+  as3_json = file(var.deployApp)
 }
