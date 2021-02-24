@@ -23,6 +23,5 @@ provider "bigip" {
 
 # deploy application using as3
 resource "bigip_as3" "DeployApp" {
-  // Deploy WAF
   as3_json = file(var.deployWAF)
 }
